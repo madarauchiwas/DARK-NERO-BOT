@@ -48,9 +48,9 @@ global.linkz = "https://github.com/Kaveeshasithum/DARK-NERO-BOT.git" //your them
 global.websitex = "https://github.com/Kaveeshasithum/DARK-NERO-BOT.git" //ur website to be displayed
 global.botscript = 'https://github.com/Kaveeshasithum/DARK-NERO-BOT.git' //script link
 global.reactmoji = "😘" //ur menu react emoji
-global.themeemoji = "🎸" //ur theme emoji
-global.packname = "Nero Bot Stickers\n\n\n\n\n\n\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
-global.author = "Kaveesha sithum" //ur sticker watermark author
+global.themeemoji = "🐦" //ur theme emoji
+global.packname = "MADARA UCHIWA " //ur sticker watermark packname
+global.author = "MADARA UCHIWA" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -60,24 +60,24 @@ global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
 global.premium = ['2250787737416'] //ur premium numbers
-global.ntilinkytvid = []
-global.ntilinkytch = []
-global.ntilinkig = []
-global.ntilinkfb = []
-global.ntilinktg = []
-global.ntilinktt = []
-global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
-global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
-global.gcrevoke = []
-global.autorep = []
-global.ntilink = []
+global.ntilinkytvid = ['2250787737416']
+global.ntilinkytch = ['2250787737416']
+global.ntilinkig = ['2250787737416']
+global.ntilinkfb = ['2250787737416']
+global.ntilinktg = ['2250787737416']
+global.ntilinktt = ['2250787737416']
+global.ntilinktwt = ['2250787737416']
+global.ntilinkall = ['2250787737416']
+global.nticall = ['2250787737416']
+global.ntwame = ['2250787737416']
+global.nttoxic = ['2250787737416']
+global.ntnsfw = ['2250787737416']
+global.ntvirtex = ['2250787737416']
+global.rkyt = ['2250787737416']
+global.wlcm = ['2250787737416']
+global.gcrevoke = ['2250787737416']
+global.autorep = ['2250787737416']
+global.ntilink = ['2250787737416']
 
 //omther
 global.sessionName = 'session'
@@ -86,19 +86,19 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin! 🇱🇰',
+    admin: 'Cette fonctionnalité est réservée aux administrateurs !🇰',
     botAdmin: 'Bot Must Be Admin First! 🇱🇰',
-    owner: 'This Feature Is Only For Owner! 🇱🇰',
-    group: 'Feature Used Only For Groups! 🇱🇰',
+    owner: 'Le bot doit d abord être administrateur ! 🇱🇰',
+    group: 'Fonctionnalité utilisée uniquement pour les groupes ! 🇱🇰',
     private: 'Features Used Only For Private Chat! 🇱🇰',
-    bot: 'This Feature Is Only For Bot 🇱🇰',
-    wait: 'In wait 🇱🇰',
-    linkm: 'Where is the link? 🇱🇰',
+    bot: 'Cette fonctionnalité est uniquement pour le bot 🇱🇰',
+    wait: 'En attente 🇱🇰',
+    linkm: 'Où est le lien ? 🇱🇰',
     error: 'Error!!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    endLimit: 'Votre limite quotidienne a expiré, la limite sera réinitialisée toutes les 12 heures',
+    ban: 'Vous avez été banni par le propriétaire, si vous souhaitez être débanni, discutez avec le propriétaire.',
+    nsfw: 'La fonctionnalité nsfw n a pas été activée, veuillez contacter l administrateur pour l activer',
+    banChat: 'Le bot a été banni dans ce groupe, veuillez contacter le propriétaire pour le débannir'
 }
     global.limitawal = {
     premium: "Infinity",
