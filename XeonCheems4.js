@@ -1090,27 +1090,8 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
-│└────────────┈ ⳹
-│
-└─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
-└┬────────────┈ ⳹
-   │✑  Please Select
-   │✑  The Button Below
-   └─────────────┈ ⳹`
+                const menulist = `
+`
    
    //randoming function
 function pickRandom(list) {
@@ -6668,7 +6649,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: 'MITSURI KANROJI',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -8158,7 +8139,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬KAVEESHA MD📌❭*
+caption: `*┏━━━❬MADARA UCHIWA MD📌❭*
      
    *📥 YOUTUBE DOWNLODER* 
  
@@ -8172,10 +8153,10 @@ caption: `*┏━━━❬KAVEESHA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+*┃BOT NAME : ✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫
 
 ┗━━━━━━━━━❊`,
-footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+footer: `✫ ✫ MITSURI KANROJI✫ ✫ ✫`,
 buttons: buttons,
 headerType: 4,
 }
@@ -8194,7 +8175,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬KAVEESHA MD📌❭*
+caption: `*┏━━━❬MADARA UCHIWA MD📌❭*
      
    *📥 SONG DOWNLODER* 
  
@@ -8208,10 +8189,10 @@ caption: `*┏━━━❬KAVEESHA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+*┃BOT NAME : ✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫
 
 ┗━━━━━━━━━❊`,
-footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+footer: `✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫`,
 buttons: buttons,
 headerType: 4,
 }
@@ -8226,7 +8207,7 @@ case 'ytdl': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 listMessage :{
  title: `Hi ${pushname}`,
- description: `*┏━━━❬KAVEESHA MD📌❭*
+ description: `*┏━━━❬MADARA UCHIWA MD📌❭*
      
   📥 ADVANCE YOUTUBE DOWNLODER* 
 
@@ -8240,11 +8221,11 @@ listMessage :{
 
 *┃🔖Description : ${anu.description}
 
-*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+*┃BOT NAME : ✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫
 
 ┗━━━━━━━━━❊`,
  buttonText: "Menu",
- footerText: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+ footerText: `✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫`,
  listType: "SINGLE_SELECT",
  sections: [{
     "title": "MP4",
@@ -8377,7 +8358,7 @@ break
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `*┏━━━❬KAVEESHA MD📌❭*
+ caption: `*┏━━━❬MADARA UCHIWA MD📌❭*
      
    📥 VIDEO DOWNLODER* 
  
@@ -8391,10 +8372,10 @@ break
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME :* *✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫*
+*┃BOT NAME :* *✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫*
 
 ┗━━━━━━━━━❊`,
- footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+ footer: `✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫`,
  buttons: buttons,
  headerType: 4,
  }
@@ -9029,7 +9010,7 @@ case 'alive': {
     ]
     let buttonMessage = {
     image: { url: `https://i.ibb.co/1nKFSPL/294850807-145420524821814-7377108139265629841-n.jpg` },
-    caption: `╔═════❬ ♛ 𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 ❭
+    caption: `╔═════❬ ♛ MITSURI KANROJI ❭
 
 
     │「 *Hi* ✌ 」
@@ -9041,7 +9022,7 @@ case 'alive': {
     ➤●  ⏳ ${runtime(process.uptime())}
     
     
-     ♞ 𝐈 𝐚𝐦  :  𝐃𝐀𝐑𝐊 𝐍𝐄𝐑𝐎  🇱🇰
+     ♞ 𝐈 𝐚𝐦  :  MITSURI KANROJI  🇱🇰
 
     
         ♛ 𝘪 𝘢𝘮 𝘢𝘭𝘪𝘷𝘦 𝘯𝘰𝘸 ✅
@@ -9051,12 +9032,12 @@ case 'alive': {
     
     ➤● 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 ♕: 1.0.1
     
-    ➤● 𝐁𝐨𝐭 𝐧𝐚𝐦𝐞 :𝐃𝐚𝐫𝐤 𝐧𝐞𝐫𝐨
+    ➤● 𝐁𝐨𝐭 𝐧𝐚𝐦𝐞 :MITSURI KANROJI
     
     ➤● 𝐎𝐰𝐞𝐧𝐞𝐫 𝐍𝐨:${global.owner} 
       
   *╚═══❖•ೋ° °ೋ•❖═══╝*`,
-    footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+    footer: `✫ ✫ ✫MITSURI KANROJI✫ ✫ ✫`,
     buttons: buttons,
     headerType: 4,
     }
